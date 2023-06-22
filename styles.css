@@ -51,3 +51,19 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+#startGame {
+  display: none;
+}
+@media (max-width: 768px) {
+  #startGame {
+    display: block;
+    color: black;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+}
